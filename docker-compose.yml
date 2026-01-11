@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  broker1:
+    image: alpine:3.19
+    command: ["sh", "-c", "echo broker1 running && sleep infinity"]
+  broker2:
+    image: alpine:3.19
+    command: ["sh", "-c", "echo broker2 running && sleep infinity"]
+  broker3:
+    image: alpine:3.19
+    command: ["sh", "-c", "echo broker3 running && sleep infinity"]
